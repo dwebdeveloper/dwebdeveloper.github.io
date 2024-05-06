@@ -3735,21 +3735,6 @@ css style at generic.html to generate the list of tools used
   background-repeat: no-repeat;
 }
 
-.Seven {
-  background-image: url('../../src/assets/images/AbChallenge.png');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Eight {
-  background-image: url('../../src/assets/images/Field.jpeg');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-
 .PHeader {
   display: flex;
   justify-content: flex-start;
