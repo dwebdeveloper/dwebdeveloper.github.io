@@ -3675,12 +3675,7 @@ css style at generic.html to generate the list of tools used
   height: max-content;
   display: flex;
   align-items: center;
-}
-
-.ProgramContainer {
-  display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  /*border: 1px solid black;*/
 }
