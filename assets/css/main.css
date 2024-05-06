@@ -3695,41 +3695,34 @@ css style at generic.html to generate the list of tools used
 }
 
 .One {
-  background-image: url('../../src/assets/images/mealPlan.png');
+  background-image: url('../../src/assets/images/canva.png');
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Two {
-  background-image: url('../../src/assets/images/gymWorkout.png');
+  background-image: url('../../src/assets/images/copilot.jpg');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Three {
-  background-image: url('../../src/assets/images/outdoorWorkout.jpg');
+  background-image: url('../../src/assets/images/figma.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Four {
-  background-image: url('../../src/assets/images/Abs.jpg');
+  background-image: url('../../src/assets/images/vs.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Five {
-  background-image: url('../../src/assets/images/Live.png');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Six {
-  background-image: url('../../src/assets/images/BootCamp.jpg');
+  background-image: url('../../src/assets/images/fonts.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
