@@ -3674,3 +3674,8 @@ css style at generic.html to generate the list of tools used
   display: flex;
   flex-direction: row;
 }
+
+.tools {
+  width: 100px;
+  height: 50px;
+}
