@@ -3670,7 +3670,7 @@ button:disabled,
 /*
 css style at generic.html to generate the list of tools used 
 */
-.Program {
+#Program {
   width: 100%;
   height: max-content;
   display: flex;
