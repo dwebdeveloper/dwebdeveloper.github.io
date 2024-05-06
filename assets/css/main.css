@@ -3723,27 +3723,3 @@ css style at generic.html to generate the list of tools used
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
-
-.Program {
-  width: 100%;
-  height: max-content;
-  display: flex;
-  align-items: center;
-}
-
-.ProgramContainer {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /*border: 1px solid black;*/
-}
-
-.P {
-  margin: 20px;
-  /*border: 1px solid rgb(207, 207, 207);*/
-  text-transform: uppercase;
-  width: 380px;
-  height: 280px;
-  border-radius: 10px;
-}
