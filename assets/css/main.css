@@ -3675,4 +3675,5 @@ css style at generic.html to generate the list of tools used
   height: max-content;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
