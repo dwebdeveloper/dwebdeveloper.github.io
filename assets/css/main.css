@@ -3695,34 +3695,29 @@ css style at generic.html to generate the list of tools used
 }
 
 .One {
-  background-image: url('/canva.png');
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Two {
-  background-image: url('images/copilot.jpg');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Three {
-  background-image: url('images/figma.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Four {
-  background-image: url('images/vs.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Five {
-  background-image: url('images/fonts.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
