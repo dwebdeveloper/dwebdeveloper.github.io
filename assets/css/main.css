@@ -3673,6 +3673,7 @@ css style at generic.html to generate the list of tools used
 .ProgramContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 
