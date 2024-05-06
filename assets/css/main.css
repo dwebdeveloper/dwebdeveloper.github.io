@@ -3701,14 +3701,14 @@ css style at generic.html to generate the list of tools used
 }
 
 .Two {
-  background-image: url('/assets/images/copilot.jpg');
+  background-image: url('../../src/assets/images/copilot.jpg');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
 }
 
 .Three {
-  background-image: url('/images/figma.png');
+  background-image: url('../src/assets/images/figma.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
@@ -3750,90 +3750,4 @@ css style at generic.html to generate the list of tools used
   width: 380px;
   height: 280px;
   border-radius: 10px;
-}
-
-.One {
-  background-image: url('../../src/assets/images/canva.png');
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Two {
-  background-image: url('../../src/assets/images/gymWorkout.png');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Three {
-  background-image: url('../../src/assets/images/outdoorWorkout.jpg');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Four {
-  background-image: url('../../src/assets/images/Abs.jpg');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Five {
-  background-image: url('../../src/assets/images/Live.png');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Six {
-  background-image: url('../../src/assets/images/BootCamp.jpg');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Seven {
-  background-image: url('../../src/assets/images/AbChallenge.png');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-.Eight {
-  background-image: url('../../src/assets/images/Field.jpeg');
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
-
-
-.PHeader {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 17px;
-  background-color: rgb(214, 216, 221);
-  color: rgb(29, 29, 29);
-  font-family: 'Permanent Marker', cursive;
-  margin-top: 130px;
-  width: 380px;
-  height: 150px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  opacity: .7;
-}
-
-.PHeader {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 17px;
-  background-color: rgb(214, 216, 221);
-  color: rgb(29, 29, 29);
-  font-family: 'Permanent Marker', cursive;
-  margin-top: 130px;
-  width: 380px;
-  height: 150px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  opacity: .7;
 }
