@@ -3676,7 +3676,7 @@ css style at generic.html to generate the list of tools used
 }
 
 .testing {
-  background-image: url(../../../dwebdeveloper.github.io/images/canva.png);
+  background-image: url('../../../dwebdeveloper.github.io/images/canva.png');
   background-size: 100px 50px;
   background-repeat: no-repeat;
 }
