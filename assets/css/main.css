@@ -3708,7 +3708,7 @@ css style at generic.html to generate the list of tools used
 }
 
 .Three {
-  background-image: url('../src/assets/images/figma.png');
+  background-image: url('/assets/images/figma.png');
   background-size: 100px;
   background-size: 380px 280px;
   background-repeat: no-repeat;
