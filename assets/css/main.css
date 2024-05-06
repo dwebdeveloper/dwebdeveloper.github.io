@@ -3685,15 +3685,6 @@ css style at generic.html to generate the list of tools used
   /*border: 1px solid black;*/
 }
 
-.P {
-  margin: 20px;
-  /*border: 1px solid rgb(207, 207, 207);*/
-  text-transform: uppercase;
-  width: 380px;
-  height: 280px;
-  border-radius: 10px;
-}
-
 .One {
   background-size: 380px 280px;
   background-repeat: no-repeat;
@@ -3711,11 +3702,7 @@ css style at generic.html to generate the list of tools used
   background-repeat: no-repeat;
 }
 
-.Four {
-  background-size: 100px;
-  background-size: 380px 280px;
-  background-repeat: no-repeat;
-}
+
 
 .Five {
   background-image: url('../../images/fonts.png');
