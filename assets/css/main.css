@@ -3719,15 +3719,6 @@ css style at generic.html to generate the list of tools used
     max-height: 1000px;
   }
 
-  button {
-    background: #0e0b22;
-    color: #fff;
-    padding: 0.6rem;
-    margin-top: 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
   button:hover {
     cursor: pointer;
     background: #1e1d25;
