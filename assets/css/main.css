@@ -3709,6 +3709,7 @@ css style at generic.html to generate the list of tools used
     transition: max-height 1s;
     text-align: justify;
     margin-top: 20px;
+    white-space: nowrap;
   }
 
   p {
