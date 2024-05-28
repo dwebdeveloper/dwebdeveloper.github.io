@@ -3716,11 +3716,10 @@ css style at generic.html to generate the list of tools used
   }
 
   article.open {
-    max-height: 1000px;
+    max-height: fit-content;
   }
 
   button:hover {
     cursor: pointer;
-    background: #1e1d25;
   }
 }
