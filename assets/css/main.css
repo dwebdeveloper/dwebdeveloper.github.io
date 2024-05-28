@@ -3716,7 +3716,7 @@ css style at generic.html to generate the list of tools used
   }
 
   article.open {
-    max-height: fit-content;
+    max-height: 1000px;
   }
 
   button:hover {
