@@ -1,4 +1,4 @@
-const article = document.querySelector("#showMore");
+const article = document.querySelector("#aboutMe");
 
 function showMore() {
     if (article.className == "open") {
