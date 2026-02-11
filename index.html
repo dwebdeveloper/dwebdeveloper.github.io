@@ -1,90 +1,243 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-        }
-        nav a {
-            color: #ffffff;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .project {
-            background: #ffffff;
-            margin: 15px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px #ccc;
-        }
-        footer {
-            text-align: center;
-            padding: 15px 0;
-            background: #35424a;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+	<title>My Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <div class="container">
-        <section id="projects">
-            <h2>My Work</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <p>Description of project 3.</p>
-            </div>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Information about me.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Contact details.</p>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2026 dwebdeveloper</p>
-    </footer>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>About me</strong> </a>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/james-r-a542b8b7/"
+								class="icon brands fa-linkedin"><span class="label">Github</span></a></li>
+						<li><a href="https://github.com/dwebdeveloper" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+				</header>
+
+				<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h1>Hi, I'm James Rojas</h1>
+							<p>Creative Digital and Social Media Marketer</p>
+						</header>
+						<article id="aboutMe" class="content">
+							<p>Front-end web development and implementing marketing strategies
+								are my strengths as a digital and social media marketer. Understanding consumers
+								behavior towards products & services are my interests. My love
+								for psychology & marketing helps me connect with others, anticipating the needs & wants
+								of
+								consumers.
+							</p>
+							<p>Improving touchpoints for customers through user-experience is
+								what I find exciting and fulfilling.
+								My goal in every project is to
+								create a effective online presence before, during, & after customers purchase. I
+								find it important building customers journey for brands, reinforcing engagement
+								from
+								web design & funcitionality while driving sales.
+							</p>
+							<ul class="actions">
+								<li><a href="resume/jr_Resume.docx" class="button big">Resume</a></li>
+							</ul>
+						</article>
+						<button onclick="showMore()" type="button">Learn more about
+							me!</button>
+
+
+					</div>
+					<span class="image object">
+						<img src="images/jr.jpeg" alt="James Rojas" width="250" height="100" />
+					</span>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>AREAS OF EXPERTISE</h2>
+					</header>
+					<div class="features">
+						<article>
+							<span class="icon solid fa-code"></span>
+							<div class="content">
+								<h3>Web Development</h3>
+								<p>I build and deploy interactive web applications to appeal to customers, with a
+									combination on creative design and technical skills</p>
+							</div>
+						</article>
+						<article>
+							<span class="icon brands fa-figma"></span>
+							<div class="content">
+								<h3>Figma</h3>
+								<p>I apply the graphic editing tool as way to design and craft social media
+									posts, brainstorming ad campaigns</p>
+							</div>
+						</article>
+						<article>
+							<span class="icon solid fa-file"></span>
+							<div class="content">
+								<h3>Surveymonkey</h3>
+								<p>I collect data from customer surveys for insights about a brand, market and target
+									audience</p>
+							</div>
+						</article>
+						<article>
+							<span class="icon solid fa-video"></span>
+							<div class="content">
+								<h3>Video Marketing</h3>
+								<p>I create and promote engaging content on brands for consumers while
+									conveying a message. </p>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Work</h2>
+					</header>
+					<div class="posts">
+						<article>
+							<a href="#" class="image"><img src="images/graphic_Design1.jpg" alt="" /></a>
+							<h3>Project 1</h3>
+							<p>Graphic Design</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/web_Dev1.jpg" alt="" /></a>
+							<h3>Project 2</h3>
+							<p>Web Design & Development</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/ad.jpg" alt="" /></a>
+							<h3>Project 3</h3>
+							<p>Advertising Campaign</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/promo.jpg" alt="" /></a>
+							<h3>Project 4</h3>
+							<p>Promotional Video</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li>
+							<span class="opener">Graphic Design</span>
+							<ul>
+								<li><a href="generic.html">FanDuel</a></li>
+								<li><a href="generic.html">Tinder</a></li>
+								<li><a href="generic.html">Volkswagon</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<span class="opener">Web Design and Development</span>
+							<ul>
+								<li><a href="#">FanDuel</a></li>
+								<li><a href="#">Tinder</a></li>
+								<li><a href="#">Volkswagon</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<span class="opener">Advertising Campaign</span>
+							<ul>
+								<li><a href="#">FanDuel</a></li>
+								<li><a href="#">Tinder</a></li>
+								<li><a href="#">Volkswagon</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<span class="opener">Promotional Video</span>
+							<ul>
+								<li><a href="#">FanDuel</a></li>
+								<li><a href="#">Tinder</a></li>
+								<li><a href="#">Volkswagon</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- Section -->
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<p>Please feel free to contact me</p>
+					<ul class="contact">
+						<li class="icon solid fa-envelope"><a href="#">jamesrojas710@gmail.com</a></li>
+					</ul>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p>Made by James Rojas</p>
+					<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a
+							href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5
+							UP</a>.</p>
+				</footer>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/button.js"></script>
 </body>
+
 </html>
